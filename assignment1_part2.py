@@ -8,11 +8,11 @@ class Book(object):
         self.author = author
         self.title = title
 
-    def set_author(self, author):
+    def setAuthor(self, author):
         """Author setter"""
         self.author = author
 
-    def set_title(self, title):
+    def setTitle(self, title):
         """Title setter"""
         self.title = title
 

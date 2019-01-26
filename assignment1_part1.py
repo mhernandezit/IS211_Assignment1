@@ -20,22 +20,22 @@ def listDivide(numbers, divide=2):
             isdivisible += 1
     return isdivisible
 
-class listDivideException(Exception):
+class ListDivideException(Exception):
     """Custom exception class for assignment 1"""
     pass
 
 def testListDivide():
     """ Unit tests """
     if listDivide([1, 2, 3, 4, 5]) != 2:
-        raise listDivideException
+        raise ListDivideException
     if listDivide([2, 4, 6, 8, 10]) != 5:
-        raise listDivideException
+        raise ListDivideException
     if listDivide([30, 54, 63, 98, 100], divide=10) != 2:
-        raise listDivideException
+        raise ListDivideException
     if listDivide([]) != 0:
-        raise listDivideException
+        raise ListDivideException
     if listDivide([1, 2, 3, 4, 5], 1) != 5:
-        raise listDivideException
+        raise ListDivideException
 
 if __name__ == '__main__':
     testListDivide()
