@@ -16,12 +16,12 @@ class Book(object):
         """Title setter"""
         self.title = title
 
-def display(book):
-    """ display function to display a book's title, author """
-    print '"{}, written by {}"'.format(book.title, book.author)
+    def display(self):
+        """ display function to display a book's title, author """
+        print '"{}, written by {}"'.format(self.title, self.author)
 
 if __name__ == '__main__':
     BOOK1 = Book("Of Mice and Men", "John Steinbeck")
     BOOK2 = Book("To Kill a Mockingbird", "Harper Lee")
-    display(BOOK1)
-    display(BOOK2)
+    BOOK1.display()
+    BOOK2.display()
