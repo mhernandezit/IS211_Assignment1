@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 #Michael Hernandez
 #IS211 Assignment 1 Part 1
 """IS211 Assigment 1 part 1 - listDivide and tests"""
