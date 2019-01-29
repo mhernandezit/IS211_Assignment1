@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 """Assignment1_Part2 working with classes """
 
 class Book(object):
